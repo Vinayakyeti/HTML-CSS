@@ -1,0 +1,26 @@
+.img{
+    position:absolute;
+    left: 40%;
+    z-index: 2;
+    backface-visibility: hidden;
+}
+.para{
+    width:200px ;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    color: bisque;
+    position: absolute;
+    left: 40%;
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+#parent{
+    transition: 3s;
+    transform-style: preserve-3d;
+}
+#parent:hover{
+    transform: rotateY(180deg);
+}
+body{
+    perspective: 900px;
+}

@@ -1,0 +1,40 @@
+*{
+   margin: 0;
+}
+.nav{
+background-color: rgb(0, 0, 0);
+color: rgb(254, 252, 252);
+height: 50px;
+font: bold;
+display: flex;
+position: sticky;
+width: 100%;
+left: 0px;
+top: 0px;
+align-items: center;
+justify-content: space-between;
+}
+
+ body{
+    /* height: 100%; */
+    /* width: 100%; */
+    background-color: rgb(44, 43, 43);
+ }
+  .body{
+    display: flex;
+    color: aliceblue;
+     /* position: relative;  */
+    padding: 9vh;
+   
+    font-size: 12px;
+    left: 50px;
+ } 
+ .linkd{
+height: 200px;
+width: 200px;
+ }
+ .image{
+ }
+#hi{
+   height: 400px;
+}

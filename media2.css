@@ -1,0 +1,10 @@
+div{
+    background-color: blue;
+    height: 30000px;
+    width: 3000px;
+}
+@media(max-width:400px){
+    div{
+        background-color:red ;
+    }
+}
